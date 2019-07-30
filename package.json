@@ -1,0 +1,12 @@
+{
+  "name": "maker-sketch-export",
+  "description": "Export Sketch designs into the Maker platform",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=56.2"
+  },
+  "skpm": {
+    "name": "maker-sketch-export",
+    "main": "maker-sketch-export.sketchplugin"
+  }
+}
