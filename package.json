@@ -1,11 +1,7 @@
 {
   "name": "maker-sketch-export",
   "description": "Export Sketch designs into the Maker platform",
-<<<<<<< HEAD
   "version": "0.1.19",
-=======
-  "version": "0.1.15",
->>>>>>> 8d7344b6a4a7a02af1615295fddb940981230153
   "engines": {
     "sketch": ">=56.2"
   },
