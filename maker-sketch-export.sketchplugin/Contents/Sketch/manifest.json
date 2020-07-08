@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Maker - Export to Web",
+      "isRoot": true,
+      "identifier": "maker-sketch-export.export-main",
+      "script": "main.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "maker-sketch-export.export-main"
+    ]
+  },
+  "version": "0.2.0",
+  "description": "Export Sketch designs into the Maker platform",
+  "name": "maker-sketch-export",
+  "identifier": "maker-sketch-export",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Maker Inc.",
+  "authorEmail": "support@maker.co"
+}
