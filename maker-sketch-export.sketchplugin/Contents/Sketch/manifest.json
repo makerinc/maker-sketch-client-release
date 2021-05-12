@@ -21,7 +21,7 @@
       "maker-sketch-export.export-main"
     ]
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Export Sketch designs into the Maker platform",
   "name": "maker-sketch-export",
   "identifier": "maker-sketch-export",
